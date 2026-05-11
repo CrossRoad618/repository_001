@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高正皓 | 视频创作者 & 项目折腾者</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">正皓.</a>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#experience">经历</a></li>
+                <li><a href="#videos">视频</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero区 -->
+    <section class="hero" id="home">
+        <canvas id="particleCanvas"></canvas>
+        <div class="hero-content">
+            <p class="hero-greeting">👋 你好，我是</p>
+            <h1 class="hero-name">高正皓</h1>
+            <p class="hero-desc">视频创作者 · 项目折腾者 · 在校大学生</p>
+            <p class="hero-sub">杭州电子科技大学 · 会计学</p>
+            <div class="hero-tags">
+                <span class="tag">剪辑拍摄</span>
+                <span class="tag">视频编导</span>
+                <span class="tag">自媒体运营</span>
+                <span class="tag">项目创业</span>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <span>向下滑动</span>
+            <div class="arrow"></div>
+        </a>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-avatar">
+                    <img src="img/avatar.jpg" alt="头像">
+                    <div class="avatar-ring"></div>
+                </div>
+                <div class="about-text">
+                    <p>杭州电子科技大学会计学大三，专业排名前10%。</p>
+                    <p>从后期剪辑到视频编导，从0到1打造过多个账号，单条视频最高70W+播放，全网累计300W+。</p>
+                    <p>不安分，喜欢折腾项目。做过校园表白墙小程序、校园电商，从零搭建到月流水4位数。</p>
+                    <p>擅长用镜头讲故事，用剪辑造情绪。如果你也有好玩的项目，欢迎聊聊。</p>
+                    <div class="about-skills">
+                        <div class="skill-item">
+                            <span class="skill-name">Premiere Pro</span>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">After Effects</span>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Photoshop</span>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">DaVinci</span>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">项目展示</h2>
+            <div class="projects-grid">
+                <a href="projects/wall.html" class="project-card">
+                    <div class="project-cover">
+                        <img src="img/project1.jpg" alt="校园表白墙" onerror="this.style.background='#E3F2FD'" style="object-fit:cover;width:100%;height:100%;">
+                        <div class="project-overlay">
+                            <span class="view-btn">查看详情 →</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>校园表白墙小程序</h3>
+                        <p>私域引流 · 机器人自动化 · 累计3w新生</p>
+                        <div class="project-tags">
+                            <span>抖音引流</span>
+                            <span>私域运营</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="projects/ecommerce.html" class="project-card">
+                    <div class="project-cover">
+                        <img src="img/project2.jpg" alt="校园电商" onerror="this.style.background='#BBDEFB'" style="object-fit:cover;width:100%;height:100%;">
+                        <div class="project-overlay">
+                            <span class="view-btn">查看详情 →</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>校园电商项目</h3>
+                        <p>从零到月流水4位数 · 500+用户</p>
+                        <div class="project-tags">
+                            <span>电商</span>
+                            <span>团队搭建</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="projects/luxun.html" class="project-card">
+                    <div class="project-cover">
+                        <img src="img/project3.jpg" alt="路学长IP" onerror="this.style.background='#90CAF9'" style="object-fit:cover;width:100%;height:100%;">
+                        <div class="project-overlay">
+                            <span class="view-btn">查看详情 →</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>个人IP「路学长」</h3>
+                        <p>全网300W+播放 · 单条70W+</p>
+                        <div class="project-tags">
+                            <span>抖音</span>
+                            <span>小红书</span>
+                            <span>B站</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 实习经历 -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">实习经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>贝乐妈妈</h3>
+                            <span class="timeline-date">2025.07 - 2025.10</span>
+                        </div>
+                        <h4>编导实习生</h4>
+                        <p class="timeline-company">杭州贝拉芙信息技术有限公司</p>
+                        <div class="timeline-details">
+                            <p>• 负责小红书IP「贝乐妈妈」视频脚本、拍摄、剪辑全流程</p>
+                            <p>• 累计转化客资1000+，为公司带来客资增长300%+</p>
+                            <p>• 策划50+精品视频，打造多条爆款内容</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>海南海诚深服</h3>
+                            <span class="timeline-date">2024.06 - 2024.09</span>
+                        </div>
+                        <h4>后期实习生</h4>
+                        <p class="timeline-company">海南海诚深服商务服务有限公司</p>
+                        <div class="timeline-details">
+                            <p>• 首创PR多线程共同剪辑流程，提升团队效率</p>
+                            <p>• 搭建小红书引流账号，招商视频阅读量破万</p>
+                            <p>• 线上招募并考核剪辑师10余人</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>党委全媒体中心</h3>
+                            <span class="timeline-date">2024.09 - 至今</span>
+                        </div>
+                        <h4>部门负责人</h4>
+                        <p class="timeline-company">杭电信息学院党委</p>
+                        <div class="timeline-details">
+                            <p>• 组织十余场宣传主题活动，现场参与人数200+</p>
+                            <p>• 与企业谈判拉取社会实践赞助</p>
+                            <p>• 纳新200+，选拔40人进入协会各部门</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 视频作品 -->
+    <section class="videos" id="videos">
+        <div class="container">
+            <h2 class="section-title">视频作品</h2>
+            <p class="section-sub">全网累计300W+播放 · 单条最高70W+</p>
+            <div class="videos-grid">
+                <a href="https://www.douyin.com/video/7561326573895437583" target="_blank" class="video-card">
+                    <div class="video-cover">
+                        <img src="img/video1.jpg" alt="视频封面1" onerror="this.style.display='none'">
+                        <div class="video-play">
+                            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>大学最常见的创业项目</h3>
+                        <p>揭秘背后的盈利逻辑</p>
+                    </div>
+                </a>
+                <a href="https://www.douyin.com/video/7614784455487655210" target="_blank" class="video-card">
+                    <div class="video-cover">
+                        <img src="img/video2.jpg" alt="视频封面2" onerror="this.style.display='none'">
+                        <div class="video-play">
+                            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>信息差赚钱</h3>
+                        <p>一期了解一个信息差</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 荣誉奖项 -->
+    <section class="awards" id="awards">
+        <div class="container">
+            <h2 class="section-title">荣誉奖项</h2>
+            <div class="awards-grid">
+                <div class="award-item">
+                    <span class="award-icon">🏆</span>
+                    <span class="award-text">中国国际大学生创新大赛（2025）校赛一等奖</span>
+                </div>
+                <div class="award-item">
+                    <span class="award-icon">🎨</span>
+                    <span class="award-text">中国好创意暨全国数字艺术设计大赛校赛三等奖</span>
+                </div>
+                <div class="award-item">
+                    <span class="award-icon">🏅</span>
+                    <span class="award-text">校园辩论赛新生杯季军</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系 -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <p class="contact-sub">有项目想合作，或者想聊聊？</p>
+            <div class="contact-links">
+                <a href="mailto:3047198719@coze.email" class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <span>3047198719@coze.email</span>
+                </a>
+                <a href="#" class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <span>微信</span>
+                </a>
+                <a href="#" class="contact-item">
+                    <span class="contact-icon">🔗</span>
+                    <span>GitHub</span>
+                </a>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="你的名字" required>
+                <input type="email" placeholder="你的邮箱" required>
+                <textarea placeholder="想和我说点什么..." rows="4" required></textarea>
+                <button type="submit" class="submit-btn">发送消息</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>© 2026 高正皓 | 杭州电子科技大学</p>
+            <p class="footer-sub">折腾中 · 持续输出 · 欢迎链接</p>
+        </div>
+    </footer>
+
+    <!-- 视频播放器弹窗 -->
+    <div class="video-modal" id="videoModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">×</button>
+            <div class="video-player" id="videoPlayer"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
